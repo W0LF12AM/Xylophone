@@ -1,16 +1,43 @@
-# xylophone
+# 🎹 Flutter Xylophone App
 
-A new Flutter project.
+This is a simple Flutter app that plays xylophone notes when colored buttons are pressed. It's a great beginner project to learn about:
 
-## Getting Started
+- Building layouts with `Column` and `Expanded`
+- Creating reusable widgets
+- Playing audio assets with the `audioplayers` package
+- Managing local assets in Flutter
 
-This project is a starting point for a Flutter application.
+## 🚀 What I Learned
 
-A few resources to get you started if this is your first Flutter project:
+- How to use `audioplayers` to play sound files
+- How to create reusable button widgets
+- How to organize UI using `Column` and `Expanded`
+- How to use `TextButton` with custom styles
+- How to link sound files with button interactions
+- How to register audio files in `pubspec.yaml`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧩 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 7 colorful keys, each representing a musical note
+- Plays a `.wav` file when a key is pressed
+- Clean, full-screen UI
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.1
+```
+
+## 📂 Source Code
+- The *playSound()* function plays the note based on the button clicked. Each button is created using the *noteButton()* method for reusability.
+
+## 🛠 How to Run
+- Clone the repo
+- Run flutter pub get (*Make sure your assets are in place*)
+- Run flutter run
+
+## 🙌 Credits
+- Thanks to the Flutter & audioplayers communities for making this learning journey awesome!
